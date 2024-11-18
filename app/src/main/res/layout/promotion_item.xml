@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewPromotion"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/promotion_image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/editTextPromotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o texto de Promoção"
+        android:text="Texto da Promoção"
+        android:textColor="@color/green200"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/admin"
+        android:title="@string/Administrador"
+        android:icon="@drawable/admin1"
+        android:textColor="@color/white"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+
+        android:id="@+id/sob"
+        android:title="@string/Sobre"
+        android:textColor="@color/white"
+        app:showAsAction="never">
+
+    </item>
+
+
+</menu>

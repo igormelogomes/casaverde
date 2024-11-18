@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942057162171",
+    "project_id": "casa-verde-37fe1",
+    "storage_bucket": "casa-verde-37fe1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942057162171:android:68c3e602e65e7bb71b709e",
+        "android_client_info": {
+          "package_name": "com.example.casaverdeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC91_yavinluKvAumfnkpvWfWOsyq9wNb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

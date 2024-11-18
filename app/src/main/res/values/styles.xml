@@ -1,0 +1,15 @@
+<resources>
+    <!-- Estilo personalizado para itens de menu -->
+    <style name="CustomMenuItem" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item> <!-- Cor da letra (branco) -->
+        <item name="android:textStyle">bold</item>    <!-- Negrito -->
+        <item name="android:background">@color/green200</item> <!-- Plano de fundo (preto) -->
+    </style>
+
+    <!-- Estilo personalizado para o Toolbar -->
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">@color/white</item> <!-- Define o texto branco -->
+        <item name="android:textStyle">bold</item>    <!-- Negrito -->
+        <item name="android:homeAsUpIndicator">@drawable/voltar</item> <!-- Define a seta branca -->
+    </style>
+</resources>

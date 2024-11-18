@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/semi_transparent_green"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_margin="16dp"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green200"
+            android:text="Voltar" />
+
+        <ImageView
+            android:id="@+id/imageViewCurrentPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kitracao"
+            android:contentDescription="Imagem Atual da Promoção" />
+
+        <Button
+            android:id="@+id/buttonChangePhotoPromotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/green200"
+            android:text="Alterar Foto da Promoção" />
+
+        <Button
+            android:id="@+id/buttonRemovePhotoPromotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remover Foto da Promoção"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/green200"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextNewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o novo texto da promoção"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonChangeTextPromotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green200"
+            android:text="Alterar Texto da Promoção"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonRemoveTextPromotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remover Texto da Promoção"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/green200"
+            android:textColor="#FFFFFF" />
+
+        <!-- Secção para Aprenda -->
+
+        <ImageView
+            android:id="@+id/imageViewAprenda"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            android:contentDescription="Imagem Atual de Aprenda" />
+
+        <Button
+            android:id="@+id/buttonChangePhotoAprenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/green200"
+            android:text="Alterar Foto de Aprenda" />
+
+        <Button
+            android:id="@+id/buttonRemovePhotoAprenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remover Foto de Aprenda"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/green200"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextAprenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o texto de Aprenda"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonChangeTextAprenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green200"
+            android:text="Alterar Texto de Aprenda"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonRemoveTextAprenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remover Texto de Aprenda"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/green200"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
